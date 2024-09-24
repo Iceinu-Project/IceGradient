@@ -128,7 +128,7 @@ func GradientText(text string, colors ...interface{}) string {
 			result.WriteString(fmt.Sprintf("\033[38;2;%d;%d;%dm%c", r, g, b, char))
 			charIndex++
 		}
-		result.WriteString("\n")
+		// result.WriteString("\n")
 	}
 
 	// Reset color at the end
@@ -186,7 +186,7 @@ func GradientBackgroundText(text string, colors ...interface{}) string {
 			charIndex++
 		}
 		// Reset color at the end of each line
-		result.WriteString("\033[0m\n")
+		result.WriteString("\033[0m")
 	}
 
 	return result.String()
