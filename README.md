@@ -18,5 +18,5 @@ Simple and convenient Go gradient text generator, add some fun to your console o
 ## 安装 Installation
 
 ```bash
-go get -u github.com/IceInu/IceGradient
+go get -u github.com/Iceinu-Project/IceGradient
 ```
