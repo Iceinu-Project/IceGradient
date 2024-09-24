@@ -1,4 +1,4 @@
-package IceGradient
+package gradient
 
 // GradientTemplates Predefined gradient templates
 var GradientTemplates = map[string][]string{

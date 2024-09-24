@@ -1,4 +1,4 @@
-package IceGradient
+package gradient
 
 // 字体格式转义
 const (

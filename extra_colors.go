@@ -1,4 +1,4 @@
-package IceGradient
+package gradient
 
 const (
 	AliceBlue            = "\033[38;2;240;248;255m" // 爱丽丝蓝

@@ -1,4 +1,4 @@
-package IceGradient
+package gradient
 
 import (
 	"strings"
